@@ -1,0 +1,163 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family = Lato: ital, wght @ 0,300; 0,400; 1,300; 1,400 & display = swap'); 
+
+*{
+    font-family: var(--titulo);
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+:root{
+    
+    --cor01:#FFE1D1;
+    --cor02:#F7B997;
+    --cor03:#F1A37E;
+    --cor04:#D1867B;
+    --titulo: 'Lato', sans-serif;
+}
+body{
+   background-color:var(--cor01);
+}
+
+/* COMEÇO DO CABEÇALHO*/
+header{
+  
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37);
+} 
+img.logo{
+    display: block;
+    margin: auto;
+    padding-bottom: 3px;
+    
+}
+nav{
+    background-color: var(--cor01);
+   
+    text-align: end;
+}
+.icones{
+    
+    font-size: 18px;
+    font-style: italic;
+    color:rgb(0, 0, 0);
+    padding-right: 10px;
+  
+}
+
+/* FIM DO CABEÇALHO*/
+
+/* COMEÇO DO CONTEÚDO PRINCIPAL 1*/
+main{
+    margin: auto;
+    
+    border-radius: 4px 2.5px 4px 2.5px;
+    
+    
+}
+main h1{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px 0px;
+}
+section{
+    color:black;
+    font-size: 22px;
+    
+}
+.produtos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.content{
+    background-color: white;
+  
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-shadow: 1px 2px 13px rgba(0, 0, 0, 0.356);
+   
+}
+.info{
+    font-size: 19px;
+    color:var(--cor00);
+    padding: 0px;
+    margin: 0px;
+    
+}.nome{
+    text-align: center;
+    padding: 5px 0px;
+}
+.valor{
+    text-align: left;
+    padding-bottom: 5px;
+    text-indent: 4px;
+}
+.links{
+    padding: 5px;
+  
+
+}
+.links > a{
+    text-decoration:none;
+    color:black;
+
+}
+.button{
+    border: 0.5px solid rgb(160, 159, 159);
+    border-radius: 16px;
+    text-align: center;
+    padding: 5px 3px;
+   
+}
+.button:hover{
+    background-color: var(--cor02);
+    color:black;
+    transition: 2.5s;
+    cursor: pointer;
+}
+
+
+
+
+
+/* FIM DO CONTEÚDO PRINCIPAL 1*/
+
+/* COMEÇO DO CONTEÚDO PRINCIPAL 2*/
+.fotocli{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.conjunto{
+    padding: 0px 0px 0px 10px;
+}
+
+/* FIM DO CONTEÚDO PRINCIPAL 2*/
+footer{
+    margin-top: 10px;
+    background-color: var(--cor02);
+    padding: 5px;
+    display: block;
+    
+}
+footer p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer a {
+    text-decoration: none;
+    font: bold 16px Arial, Helvetica, san-serif;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: pink;
+}
+
