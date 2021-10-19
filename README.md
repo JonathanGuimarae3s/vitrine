@@ -1,2 +1,2 @@
 # vitrine
- Vitrine para loja de vestidos online .
+ Vitrine para loja de vestidos online.
