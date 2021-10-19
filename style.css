@@ -1,8 +1,9 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2? family = Lato: ital, wght @ 0,300; 0,400; 1,300; 1,400 & display = swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 *{
-    font-family: var(--titulo);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
     padding: 0px;
     margin: 0px;
    
@@ -14,7 +15,6 @@
     --cor02:#F7B997;
     --cor03:#F1A37E;
     --cor04:#D1867B;
-    --titulo: 'Lato', sans-serif;
 }
 body{
    background-color:var(--cor01);
@@ -47,7 +47,6 @@ nav{
     padding-right: 10px;
   
 }
-
 /* FIM DO CABEÇALHO*/
 
 /* COMEÇO DO CONTEÚDO PRINCIPAL 1*/
@@ -59,7 +58,7 @@ main{
     
 }
 main h1{
-    color: black;
+    color: #000000;
     font-size: 35px;
     text-align: center;
     padding: 10px 0px;
@@ -75,7 +74,6 @@ section{
     flex-wrap: wrap;
     
 }
-
 .content{
     background-color: white;
   
@@ -95,19 +93,17 @@ section{
     padding: 5px 0px;
 }
 .valor{
-    text-align: left;
+    text-align: center;
     padding-bottom: 5px;
     text-indent: 4px;
+    
 }
 .links{
     padding: 5px;
-  
-
 }
 .links > a{
     text-decoration:none;
     color:black;
-
 }
 .button{
     border: 0.5px solid rgb(160, 159, 159);
@@ -122,10 +118,6 @@ section{
     transition: 2.5s;
     cursor: pointer;
 }
-
-
-
-
 
 /* FIM DO CONTEÚDO PRINCIPAL 1*/
 
@@ -143,21 +135,22 @@ section{
 /* FIM DO CONTEÚDO PRINCIPAL 2*/
 footer{
     margin-top: 10px;
-    background-color: var(--cor02);
+    background-color: #f5d5c4;
     padding: 5px;
-    display: block;
     
 }
 footer p{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 footer a {
     text-decoration: none;
-    font: bold 16px Arial, Helvetica, san-serif;
+    font: italic bold 16px ;
+    color: black;
 }
 footer a:hover{
     text-decoration: underline;
-    color: pink;
+    color: black;
+    font-size: 18px;
 }
 
