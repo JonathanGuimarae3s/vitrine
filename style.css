@@ -63,16 +63,17 @@ main h1{
     text-align: center;
     padding: 10px 0px;
 }
-section{
-    color:black;
-    font-size: 22px;
-    
-}
+
 .produtos{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     
+}
+.produto{
+    margin-right: 5px;
+    color:black;
+    font-size: 22px;
 }
 .content{
     background-color: white;
