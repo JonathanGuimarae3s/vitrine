@@ -68,6 +68,7 @@ main h1{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    max-width: 1000px;
     
 }
 .produto{
@@ -136,9 +137,14 @@ main h1{
 /* FIM DO CONTEÚDO PRINCIPAL 2*/
 footer{
     margin-top: 10px;
-    background-color: #f5d5c4;
+   background-image: linear-gradient(to bottom, #f7cdb7, #D1867B);
     padding: 5px;
     
+}
+#sobre{
+    width:500px;
+    margin: 10px auto;
+    text-align: center;
 }
 footer p{
     text-align: center;
