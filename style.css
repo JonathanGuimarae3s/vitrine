@@ -137,7 +137,7 @@ main h1{
 /* FIM DO CONTEÚDO PRINCIPAL 2*/
 footer{
     margin-top: 10px;
-   background-image: linear-gradient(to bottom, #f7cdb7, #D1867B);
+   background-image: linear-gradient(to bottom, #F7B997, #F1A37E);
     padding: 5px;
     
 }
@@ -146,16 +146,33 @@ footer{
     margin: 10px auto;
     text-align: center;
 }
-footer p{
-    text-align: center;
+#sobre ul{
+    margin-top: 10px;
     
 }
-footer a {
+
+ul > p{
+    margin-bottom: 10px;
+}
+#sobre li{
+    display: inline;
+    list-style: none;
+    ;
+}
+div#rodape{
+    background-color: var(--cor01);
+    text-align: center;
+
+}
+
+#rodape a {
     text-decoration: none;
-    font: italic bold 16px ;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
     color: black;
 }
-footer a:hover{
+#rodape a:hover{
     text-decoration: underline;
     color: black;
     font-size: 18px;
