@@ -123,6 +123,7 @@ main h1{
 
 /* FIM DO CONTEÚDO PRINCIPAL 1*/
 
+
 /* COMEÇO DO CONTEÚDO PRINCIPAL 2*/
 .fotocli{
     display: flex;
@@ -135,6 +136,65 @@ main h1{
 }
 
 /* FIM DO CONTEÚDO PRINCIPAL 2*/
+
+/*ACCORDION */
+
+#duvidas{
+    background-color: var(--cor03);
+    width: 600px;
+    margin: 10px auto;
+    padding: 10px 100px;
+
+}
+
+.box{
+    text-align: center;
+    background-color: var(--cor03);
+    width: 600px;
+    margin: 10px auto;
+   
+    padding: 3px;
+}
+
+details{
+    display: block;
+    width: auto;
+    margin: 10px 0px;
+
+}
+details p{
+    padding-left: 30px;
+    text-align: justify;
+
+}
+summary{
+    display: flex;  /*faz sumir a flecha de abertura*/
+    background-color: var(--cor01);
+    color: black;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight:700 ;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+summary::-webkit-detail-marker{
+    display:none
+
+}
+summary::before{
+    content: "+";
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 5px;
+}
+details[open]summary:before{
+    content:"-"
+}
+
+/* fim do accordion */
+
 footer{
     margin-top: 10px;
    background-image: linear-gradient(to bottom, #F7B997, #F1A37E);
