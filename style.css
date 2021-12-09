@@ -52,7 +52,7 @@ nav{
 /* COMEÇO DO CONTEÚDO PRINCIPAL 1*/
 main{
     margin: auto;
-    
+    background-image: var(--cor01);
     border-radius: 4px 2.5px 4px 2.5px;
     
     
@@ -68,7 +68,7 @@ main h1{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    max-width: 1000px;
+    
     
 }
 .produto{
@@ -140,19 +140,19 @@ main h1{
 /*ACCORDION */
 
 #duvidas{
-    background-color: var(--cor03);
-    width: 600px;
-    margin: 10px auto;
-    padding: 10px 100px;
+  
+    margin: 10px 1px;
+    padding: 10px ;
 
 }
 
 .box{
+
     text-align: center;
     background-color: var(--cor03);
-    width: 600px;
-    margin: 10px auto;
-   
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 2px #00000046;
+    /* margin: 10px auto; */
     padding: 3px;
 }
 
@@ -163,12 +163,12 @@ details{
 
 }
 details p{
-    padding-left: 30px;
+    padding:5px 0px 0px  19px;
     text-align: justify;
 
 }
 summary{
-    display: flex;  /*faz sumir a flecha de abertura*/
+    display: flex;  
     background-color: var(--cor01);
     color: black;
     border-radius: 8px;
@@ -177,10 +177,11 @@ summary{
     font-weight:700 ;
     justify-content: flex-start;
     align-items: center;
+    text-align: center;
 
 }
-summary::-webkit-detail-marker{
-    display:none
+summary::-webkit-details-marker{
+    display:none/*faz sumir a flecha de abertura*/
 
 }
 summary::before{
@@ -188,10 +189,12 @@ summary::before{
     font-size: 20px;
     font-weight: bold;
     margin: 0px 5px;
+    width:20px;
+    text-align: center;
 }
-details[open]summary:before{
-    content:"-"
-}
+details[open] summary:before {
+    content: "-";
+  }
 
 /* fim do accordion */
 
