@@ -1,137 +1,190 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kids Karolina</title>
-    <link rel="shortcut icon" href="imagens/favicon/favicon-oficial.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>  
-        <label class="imagens">
-            <picture>
-                <source media="(max-width:580px )" srcset="imagens/logos/logo-oficial-1.png">
-                <img src="imagens/logos/logo-oficial-1.png" class="logo" alt="logo da kids Karolina">
-            </picture>
-        </label>
-        <nav>
-        <a href="https://www.instagram.com/kidskarolina/" target="_blank" class="icones"><img src="imagens/icone/instagram+.png"  alt="icone do instagram"></a> 
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Kids Karolina</title>
+		<link
+			rel="shortcut icon"
+			href="imagens/favicon/favicon-oficial.png"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<label class="imagens">
+				<picture>
+					<source
+						media="(max-width:580px )"
+						srcset="imagens/logos/logo-oficial-1.png"
+					/>
+					<img
+						src="imagens/logos/logo-oficial-1.png"
+						class="logo"
+						alt="logo da kids Karolina"
+					/>
+				</picture>
+			</label>
+			<nav>
+				<a
+					href="https://www.instagram.com/kidskarolina/"
+					target="_blank"
+					class="icones"
+					><i class="fab fa-instagram"></i></a>
 
-        <a href="https://www.facebook.com/profile.php?id=100061056625479" target="_blank" class="icones" ><img src="imagens/icone/icone-facebook.png" alt="icone do facebook"></a>
-        
-        <a href="https://api.whatsapp.com/send?phone=+5521965852442" target="_blank" class="icones"><img src="imagens/icone/whatsapp.png"  alt="icone do whatsapp"></a>
-        </nav>
-    
-    </header>
-    <main>
-       
-        <h1>Coleção atual</h1>
-        <section class="produtos">
-            <section class="produto">
-                <div class="content">
-                    <div class="dress">
-                        <img src="imagens/vestidos/ex1.jpeg" alt="vestido">
-                    </div>
-                    <div class="info">
-                        <div class="nome">
-                            <span class="nomevest">0</span>
-                        </div>
-                        <div class="valor">
-                            <p>Valor:  R$3,50</p>
-                        </div>  
-                        <div class="links">
-                            <p class="button" onclick="vest()">Comprar</p>
-                        </div>
-                        
-                    </div> 
-                </div>   
-            </section>
-            <section class="produto">
-                <div class="content">
-                    <div class="dress">
-                        <img src="imagens/vestidos/ex1.jpeg" alt="vestido">
-                    </div>
-                    <div class="info">
-                        <div class="nome">
-                            <span class="nomevest">2</span>
-                        </div>
-                        <div class="valor">
-                            <p>Valor:  R$3,50</p>
-                        </div>  
-                        <div class="links">
-                            <p class="button" onclick="vest()">Comprar</p>
-                        </div>
-                        
-                    </div> 
-                </div>   
-            </section>
-            </section>
+				<a
+					href="https://www.facebook.com/profile.php?id=100061056625479"
+					target="_blank"
+					class="icones"
+					><i class="fab fa-facebook-f"></i></a>
 
-        <!--SEÇÃO SECUNDÁRIA.CLIENTES E AFINS -->
-        <section>
-            <h1>Princesas com os nossos vestidos </h1>
-            <section class="fotocli">
-                <section class="conjunto">
-                    <div>
-                        <div class="kids"><img src="imagens/clientes/teste1.jpeg" class="fotos"></div>
-            
-                    </div>
-                </section>
-            
-                </section>
-        </section>
-    </main>
-    
-    <section id="duvidas">
-        <div class="box">
-            <h2>Dúvidas Frequentes</h2>
-            <details>
-                <summary>Horário de funcionamento</summary>
-                <p>Funcionamos de Segunda à Sábado, das 9 às 20 horas!</p>
-            </details>
-            <details>
-                <summary>Temos Loja Física??</summary>
-                <p>Não, atualmente somos uma loja 100% online.</p>
-            </details>
-            <details>
-                <summary>De onde nós somos?</summary>
-                <p>Somos do Rio de Janeiro.</p>
-            </details>
-            <details>
-                <summary>Como trabalhamos.</summary>
-                <p>Trabalhamos por encomenda.Atualmente, não temos estoque.</p>
-            </details>
-        </div>
-    </section>
-   
+				<a
+					href="https://api.whatsapp.com/send?phone=+5521965852442"
+					target="_blank"
+					class="icones"
+					><i class="fab fa-whatsapp"></i></a>
+			</nav>
+		</header>
+		<main>
+			<h1>Coleção atual</h1>
+			<section class="produtos">
+				<section class="produto">
+					<div class="content">
+						<div class="dress">
+							<img src="imagens/vestidos/ex1.jpeg" alt="vestido" />
+						</div>
+						<div class="info">
+							<div class="nome">
+								<span class="nomevest">0</span>
+							</div>
+							<div class="valor">
+								<p>Valor: R$3,50</p>
+							</div>
+							<div class="links">
+								<p class="button" onclick="vest()">Comprar</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="produto">
+					<div class="content">
+						<div class="dress">
+							<img src="imagens/vestidos/ex1.jpeg" alt="vestido" />
+						</div>
+						<div class="info">
+							<div class="nome">
+								<span class="nomevest">2</span>
+							</div>
+							<div class="valor">
+								<p>Valor: R$3,50</p>
+							</div>
+							<div class="links">
+								<p class="button" onclick="vest()">Comprar</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</section>
 
-    <footer>
-        <section id = "sobre">
-            
-            <h2>Sobre</h2>
+			<!--SEÇÃO SECUNDÁRIA.CLIENTES E AFINS -->
+			<section>
+				<h1>Princesas com os nossos vestidos</h1>
+				<section class="fotocli">
+					<section class="conjunto">
+						<div>
+							<div class="kids">
+								<img src="imagens/clientes/teste1.jpeg" class="fotos" />
+							</div>
+						</div>
+					</section>
+				</section>
+			</section>
+		</main>
 
-            <img src="imagens/logos/Sem título.png" alt="foto-original-da-page" width="50%">
-            <p style="text-align: justify;">Tudo começou há 6 anos atrás com o nascimento de uma princesa chamada Ana Karolina que me abriu os olhos para esse mundo maravilhoso de vestidos encantadores. Passado dois anos decidi entrar nesse ramo. Hoje somos uma loja  100% online, trabalhamos por encomenda e enviamos para todas regiões do Brasil.</p>
+		<section id="duvidas">
+			<div class="box">
+				<h2>Dúvidas Frequentes</h2>
+				<details>
+					<summary>Horário de funcionamento</summary>
+					<p>Funcionamos de Segunda à Sábado, das 9 às 20 horas!</p>
+				</details>
+				<details>
+					<summary>Temos Loja Física??</summary>
+					<p>Não, atualmente somos uma loja 100% online.</p>
+				</details>
+				<details>
+					<summary>De onde nós somos?</summary>
+					<p>Somos do Rio de Janeiro.</p>
+				</details>
+				<details>
+					<summary>Como trabalhamos.</summary>
+					<p>Trabalhamos por encomenda.Atualmente, não temos estoque.</p>
+				</details>
+			</div>
+		</section>
 
-            <ul>
-                <p>ACESSE NOSSAS REDES SOCIAIS</p>
-                <li>
-                    <a href="https://www.facebook.com/profile.php?id=100061056625479" target="_blank" class="icones" ><img src="imagens/icone/icone-facebook.png" alt="icone do facebook"></a>
-                </li>
-                <li> <a href="https://www.instagram.com/kidskarolina/" target="_blank" class="icones"><img src="imagens/icone/instagram+.png"  alt="icone do instagram"></a> </li>
-                <p>Fale diretamente com a gente:</p>
-                <li><a href="https://api.whatsapp.com/send?phone=+5521965852442" target="_blank" class="icones"><img src="imagens/icone/whatsapp.png"  alt="icone do whatsapp"></a></li>
-            </ul>
-        </section>
+		<footer>
+			<section id="sobre">
+				<article id="article_sobre">
+					<h2>Sobre</h2>
+					<img
+						src="imagens/logos/Sem título.png"
+						alt="foto-original-da-page"
+						width="150px"
+					/>
+					<p style="text-align: justify">
+						Tudo começou há 6 anos atrás com o nascimento de uma princesa
+						chamada Ana Karolina que me abriu os olhos para esse mundo
+						maravilhoso de vestidos encantadores. Passado dois anos decidi
+						entrar nesse ramo. Hoje somos uma loja 100% online, trabalhamos por
+						encomenda e enviamos para todas regiões do Brasil.
+					</p>
+				</article>
+				<article id="article_list">
+					<ul id="sobre_list">
+						<p>ACESSE NOSSAS REDES SOCIAIS</p>
+						<li>
+							<a
+								href="https://www.facebook.com/profile.php?id=100061056625479"
+								target="_blank"
+								class="icones"
+								><i class="fab fa-facebook-f"></i></a>
+						</li>
+						<li>
+							<a
+								href="https://www.instagram.com/kidskarolina/"
+								target="_blank"
+								class="icones"
+								><i class="fab fa-instagram"></i></a>
+						</li>
+						<p>Fale diretamente com a gente:</p>
+						<li>
+							<a
+								href="https://api.whatsapp.com/send?phone=+5521965852442"
+								target="_blank"
+								class="icones"
+								><i class="fab fa-whatsapp"></i></a>
+						</li>
+					</ul>
+				</article>
+			</section>
+			<div id="rodape">
+				<p>
+					Desenvolvido por &copy;
+					<a href="https://github.com/JonathanGuimarae3s" target="_blank"
+						>Jonathan Guimarães</a
+					>
+				</p>
+			</div>
+		</footer>
+		
 
-    </footer>
-    <div id='rodape'>
-        <p>Desenvolvido por &copy; <a href="https://github.com/JonathanGuimarae3s" target="_blank">Jonathan Guimarães</a></p>
-    </div>
-    
-    <script src="script.js"></script>
-       
-</body>
+		<script src="script.js"></script>
+		<script
+			src="https://kit.fontawesome.com/9d0da8719b.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
