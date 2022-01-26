@@ -236,3 +236,27 @@ footer {
 	color: black;
 	font-size: 17px;
 }
+
+@media screen and (max-width:500px) {
+	.produtos, .dress > img{
+		width:100%;
+		
+	
+	}
+	.produto{
+		width: 86%;
+		grid-template: auto/  auto auto ;
+		justify-content: normal
+		;
+	gap: 10px
+		;
+		
+		
+	}
+	.content{
+		width: 45vw;
+	}
+	#sobre{
+		padding: 0;
+	}
+}
