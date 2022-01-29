@@ -12,8 +12,8 @@ Este projeto está sendo feito no intuito de ajudar a vendedora a ter um control
 
 ## Objetivo do site 
 
-Para conseguir  resolver esses problemas, pensei  em criar uma vitrine  que quando o cliente ao clicasse no produto escolhido ele seria reedirecionado para o chat da vendedora para saber mais sobre o vestido e a forma de pagamentos .
-Para isso utilizer o JavaScript  com o objeto .open() e a API do whatsapp
+Para conseguir  resolver esses problemas, pensei  em criar uma vitrine  que quando o cliente clicasse no produto escolhido ele seria reedirecionado para o chat da vendedora para saber mais sobre o vestido e a forma de pagamentos .
+Para isso utilizeI o JavaScript  com o objeto .open() e a API do whatsapp.
 
 
 
@@ -45,7 +45,7 @@ Para isso utilizer o JavaScript  com o objeto .open() e a API do whatsapp
  
  </div>
 <p>• Funções</p>
-<p>• MAanipulação do DOM</p>
+<p>• Manipulação do DOM</p>
 <p>• Redirecionamento pelo objeto .open </p>
 <br>
 <div>
